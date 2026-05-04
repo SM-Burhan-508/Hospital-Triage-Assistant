@@ -1,0 +1,11 @@
+# Hospital Triage Assistant - Dependencies
+
+# This project uses only the Python Standard Library.
+# No external pip dependencies are required.
+
+# NOTE ON TKINTER:
+# The graphical interface uses 'tkinter', which is included with Python
+# but requires system-level shared libraries on Linux.
+# If you encounter an ImportError for 'libtk8.6.so', you must install the system package:
+# Ubuntu/Debian: sudo apt-get install python3-tk
+# Fedora/RHEL: sudo dnf install python3-tkinter
